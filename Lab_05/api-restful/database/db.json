@@ -1,0 +1,224 @@
+{
+  "tickets": [
+    {
+      "id": "84f3e1bf-a506-4c20-a44e-3d3b34f92a4f",
+      "title": "Problema 1",
+      "description": "Ocurrió un error en el sistema",
+      "status": "nuevo",
+      "priority": "medium",
+      "assignedUser": null
+    },
+    {
+      "id": "f23a8d89-6a62-4754-b534-d78118cca765",
+      "title": "Error en login",
+      "description": "No carga la pantalla de inicio",
+      "status": "nuevo",
+      "priority": "medium",
+      "assignedUser": null
+    },
+    {
+      "id": "a0e4061a-97e2-456a-b6e4-87f205aa0506",
+      "title": "Error en login",
+      "description": "No se puede iniciar sesión",
+      "status": "cerrado",
+      "priority": "medium",
+      "assignedUser": "Edwin"
+    },
+    {
+      "id": "212209de-e284-4c4e-b2cf-902d627d2b71",
+      "title": "Prueba correo",
+      "description": "Verificando si llega al buzón",
+      "status": "nuevo",
+      "priority": "medium",
+      "assignedUser": null
+    },
+    {
+      "id": "e3efc597-d0f2-4f53-b76a-544e0235e9c4",
+      "title": "Prueba2 correo",
+      "description": "Verificando si llega al buzón",
+      "status": "nuevo",
+      "priority": "medium",
+      "assignedUser": null
+    },
+    {
+      "id": "da311785-187b-4b30-9fe0-f613cce6d547",
+      "title": "Prueba debug correo",
+      "description": "Verificando envío SMTP con logs",
+      "status": "nuevo",
+      "priority": "medium",
+      "assignedUser": null
+    },
+    {
+      "id": "080c91a3-b9d6-4d49-ae10-b28fe4593089",
+      "title": "Prueba debug correo_2",
+      "description": "Verificando envío SMTP con logs",
+      "status": "nuevo",
+      "priority": "medium",
+      "assignedUser": null
+    },
+    {
+      "id": "eb446500-177c-4fa1-92f5-6c5e3c6ea101",
+      "title": "Prueba debug correo_3",
+      "description": "Verificando envío SMTP con logs",
+      "status": "nuevo",
+      "priority": "medium",
+      "assignedUser": null
+    },
+    {
+      "id": "ca942d6f-fe0b-4e48-a9d6-1cc1b005be54",
+      "title": "Prueba debug correo_4",
+      "description": "Verificando envío SMTP con logs",
+      "status": "nuevo",
+      "priority": "medium",
+      "assignedUser": null
+    },
+    {
+      "id": "6ad0493e-0131-4e61-ab2a-a23cd706dd7c",
+      "title": "Prueba debug correo_5",
+      "description": "Verificando envío SMTP con logs",
+      "status": "nuevo",
+      "priority": "medium",
+      "assignedUser": null
+    },
+    {
+      "id": "6d3008be-344e-4eab-9a59-11b5a2a31d5b",
+      "title": "Prueba correo Maryorit",
+      "description": "Verificando si entra a sendEmail",
+      "status": "nuevo",
+      "priority": "medium",
+      "assignedUser": null
+    },
+    {
+      "id": "55a44340-de56-4e1a-8e05-be56541f2dae",
+      "title": "Prueba correo Maryorit_1",
+      "description": "Verificando si entra a sendEmail",
+      "status": "nuevo",
+      "priority": "medium",
+      "assignedUser": null
+    },
+    {
+      "id": "91a58208-c139-4793-8f61-2ff2ea4a95c4",
+      "title": "Prueba correo Maryorit_2",
+      "description": "Verificando si entra a sendEmail",
+      "status": "nuevo",
+      "priority": "medium",
+      "assignedUser": null
+    },
+    {
+      "id": "8535278c-2a1f-47fb-aa6a-543d386d0eb9",
+      "title": "Prueba correo Maryorit_3",
+      "description": "Verificando si entra a sendEmail",
+      "status": "nuevo",
+      "priority": "medium",
+      "assignedUser": null
+    },
+    {
+      "id": "2e95e9a1-e391-4d29-aeed-955b6348aecd",
+      "title": "Ticket prueba Gmail",
+      "description": "Verificando envío real con App Password",
+      "status": "nuevo",
+      "priority": "medium",
+      "assignedUser": null
+    }
+  ],
+  "notifications": [
+    {
+      "id": "7b5dad77-f959-4eb7-b1de-f38781a84732",
+      "type": "email",
+      "message": "Nuevo ticket creado: Problema 1",
+      "status": "pending",
+      "ticketId": "84f3e1bf-a506-4c20-a44e-3d3b34f92a4f"
+    },
+    {
+      "id": "0d93ca7d-5cb0-4017-8cf3-a89ee3eab8b0",
+      "type": "email",
+      "message": "Nuevo ticket creado: Problema 1",
+      "status": "pending",
+      "ticketId": "3c577dba-2c48-42c2-8d44-3ba3000c7192"
+    },
+    {
+      "id": "66b1b34e-b177-4b05-8e6f-55bcf61170dd",
+      "type": "email",
+      "message": "El ticket 3c577dba-2c48-42c2-8d44-3ba3000c7192 fue asignado a Maryurit",
+      "status": "pending",
+      "ticketId": "3c577dba-2c48-42c2-8d44-3ba3000c7192"
+    },
+    {
+      "id": "79b8ea81-adfc-4971-9938-ed1ba3ca6fa8",
+      "type": "push",
+      "message": "El ticket 3c577dba-2c48-42c2-8d44-3ba3000c7192 cambió a asignado",
+      "status": "pending",
+      "ticketId": "3c577dba-2c48-42c2-8d44-3ba3000c7192"
+    },
+    {
+      "id": "f65d1cd5-b3e5-4a1d-9993-226db4f378ef",
+      "type": "email",
+      "message": "Nuevo ticket creado: Error en login",
+      "status": "pending",
+      "ticketId": "f23a8d89-6a62-4754-b534-d78118cca765"
+    },
+    {
+      "id": "edff950d-fd43-49b0-9ccd-88db031b4a44",
+      "type": "email",
+      "message": "Nuevo ticket creado: Error en login",
+      "status": "pending",
+      "ticketId": "a0e4061a-97e2-456a-b6e4-87f205aa0506"
+    },
+    {
+      "id": "3f8c623e-f498-4dd9-8ae2-e7f9569c66dc",
+      "type": "email",
+      "message": "El ticket a0e4061a-97e2-456a-b6e4-87f205aa0506 fue asignado a Edwin",
+      "status": "pending",
+      "ticketId": "a0e4061a-97e2-456a-b6e4-87f205aa0506"
+    },
+    {
+      "id": "b6f25b07-c415-4480-82f7-d9164dd52bb4",
+      "type": "push",
+      "message": "El ticket a0e4061a-97e2-456a-b6e4-87f205aa0506 cambió a cerrado",
+      "status": "pending",
+      "ticketId": "a0e4061a-97e2-456a-b6e4-87f205aa0506"
+    },
+    {
+      "id": "b4befa9f-62bc-4724-8412-1f0c0a8be046",
+      "type": "email",
+      "message": "Nuevo ticket creado: Prueba correo",
+      "status": "pending",
+      "ticketId": "212209de-e284-4c4e-b2cf-902d627d2b71"
+    },
+    {
+      "id": "10f55ef2-74ad-43f9-8416-7e7839db6e1f",
+      "type": "email",
+      "message": "Nuevo ticket creado: Prueba2 correo",
+      "status": "pending",
+      "ticketId": "e3efc597-d0f2-4f53-b76a-544e0235e9c4"
+    },
+    {
+      "id": "cdf2a00b-76a0-415d-b76a-b5872cdd6949",
+      "type": "email",
+      "message": "Nuevo ticket creado: Prueba debug correo",
+      "status": "pending",
+      "ticketId": "da311785-187b-4b30-9fe0-f613cce6d547"
+    },
+    {
+      "id": "16224005-1603-46f0-8ba8-71535c8f6dcd",
+      "type": "email",
+      "message": "Nuevo ticket creado: Prueba debug correo_2",
+      "status": "pending",
+      "ticketId": "080c91a3-b9d6-4d49-ae10-b28fe4593089"
+    },
+    {
+      "id": "64d44a70-a1a5-4d1d-a486-de09fa7efe91",
+      "type": "email",
+      "message": "Nuevo ticket creado: Prueba debug correo_3",
+      "status": "pending",
+      "ticketId": "eb446500-177c-4fa1-92f5-6c5e3c6ea101"
+    },
+    {
+      "id": "3e748d85-9e01-4c1c-bcc3-b28ab6558df6",
+      "type": "email",
+      "message": "Nuevo ticket creado: Prueba debug correo_4",
+      "status": "pending",
+      "ticketId": "ca942d6f-fe0b-4e48-a9d6-1cc1b005be54"
+    }
+  ]
+}
